@@ -1,0 +1,3 @@
+[submodule ".config/nvim/plugged/.config/nvim/plugged/vim-afterglow"]
+	path = .config/nvim/plugged/.config/nvim/plugged/vim-afterglow
+	url = https://github.com/danilo-augusto/vim-afterglow
