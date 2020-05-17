@@ -128,6 +128,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-# write content below into ~/.profile, or ~/.bash_profile
-
