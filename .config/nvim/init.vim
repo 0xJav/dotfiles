@@ -9,6 +9,7 @@ call plug#begin()
 Plug 'danilo-augusto/vim-afterglow'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 let g:airline_theme='minimalist'
