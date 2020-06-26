@@ -1,6 +1,6 @@
 #  ___ ___
 # / __| _ \     Spring                              
-# \__ \  _/     https://github.com/Zpring                                                       
+# \__ \  _/     https://github.com/Zpring
 # |___/_|       Chortle my balls                
 #                                                                              
 # .sh file made by Spring#8641
