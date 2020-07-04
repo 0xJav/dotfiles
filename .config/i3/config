@@ -180,7 +180,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
     position top
-    status_command i3status
+    status_command i3status --config ~/.i3status.conf
     colors {
         background #121212
         statusline #ffffff
@@ -189,6 +189,7 @@ bar {
         urgent_workspace #eb709b #eb709b #ffffff
         
     }
+
 }
 
 # i3 gaps config
@@ -208,6 +209,9 @@ client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 client.background       #ffffff
 
-# floating enable for feh
+# floating enable
 for_window [class="feh"] floating enable
 for_window [class="Nitrogen" instance="nitrogen"] floating enable
+for_window [class="Wicd-client.py" instance="wicd-client.py"] floating enable
+for_window [class="Viewnior" instance="viewnior"] floating enable
+for_window [class="Thunar" instance="thunar"] floating enable
