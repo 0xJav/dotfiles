@@ -16,7 +16,6 @@ call plug#end()
 let g:airline_theme='minimalist'
 let g:airline_powerline_fonts = 1
 set number
-set relativenumber
 colorscheme afterglow
 set expandtab
 set tabstop=4 shiftwidth=4
