@@ -14,6 +14,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
+" let g:airline_powerline_fonts = 1
 let g:airline_theme='minimalist'
 set number
 colorscheme afterglow
@@ -29,4 +30,3 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-
