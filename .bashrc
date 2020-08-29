@@ -130,3 +130,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+# exporting pip programs
+export PATH="${PATH}:${HOME}/.local/bin/"
