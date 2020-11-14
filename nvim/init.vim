@@ -1,10 +1,3 @@
-"  ___ ___
-" / __| _ \     Spring
-" \__ \  _/     https://github.com/Zpring
-" |___/_|       
-"
-" config file by Spring#8641
-
 call plug#begin()
 Plug 'ervandew/supertab'
 Plug 'danilo-augusto/vim-afterglow'
