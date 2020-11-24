@@ -1,18 +1,17 @@
-"  ___ ___
-" / __| _ \     Spring
-" \__ \  _/     https://github.com/0xjav
-" |___/_|       
 "
-" config file by jav
+"  ╝╔═║║ ║  config file
+"  ║╔═║║ ║  by jav
+" ═╝╝ ╝ ╝ 
+"
 
 call plug#begin()
 Plug 'ervandew/supertab'
 Plug 'jiangmiao/auto-pairs'
-Plug 'jakwings/vim-colors'
+Plug 'nanotech/jellybeans.vim'
 call plug#end()
 
 set number
-colorscheme moody
+colorscheme jellybeans
 set expandtab
 set tabstop=4 shiftwidth=4
 set encoding=utf-8
@@ -25,4 +24,4 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-set relativenumber
+set termguicolors
