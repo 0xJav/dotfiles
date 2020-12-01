@@ -185,7 +185,7 @@ colors {
 
 focused_workspace #333333 #333333 #f1f1f1
 active_workspace #333333 #333333 #f1f1f1
-inactive_workspace #333333 #333333 #787878
+inactive_workspace #222222 #222222 #787878
 urgent_workspace #ac4142 #ac4142 #ffffff
 
     }
