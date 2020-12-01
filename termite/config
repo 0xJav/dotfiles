@@ -15,7 +15,7 @@ scrollback_lines = 99999
 
 [colors]
 cursor = #aaaaaa
-background = #0E0E0E
+background = #1A1A1A
 foreground = #babdb6
 
 
@@ -36,3 +36,6 @@ color12 = #6c99bb
 color13 = #9f4e85
 color14 = #7dd6cf
 color15 = #f5f5f5
+colorBD = #d0d0d0
+colorIT =
+colorUL =
