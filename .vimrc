@@ -5,13 +5,14 @@
 "
 
 call plug#begin()
+Plug 'othree/html5.vim'
 Plug 'ervandew/supertab'
 Plug 'jiangmiao/auto-pairs'
-Plug 'nanotech/jellybeans.vim'
+Plug 'danilo-augusto/vim-afterglow'
 call plug#end()
 
 set number
-colorscheme jellybeans
+colorscheme afterglow
 set expandtab
 set tabstop=4 shiftwidth=4
 set encoding=utf-8
