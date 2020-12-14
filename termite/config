@@ -1,41 +1,35 @@
-#  ___ ___ 
-# / __| _ \     
-# \__ \  _/ Spring
-# |___/_| 
-# 
-
 [options]
 scroll_on_output = false
 scroll_on_keystroke = true
 allow_bold = true
-font = Hack 9
+font = JetBrains Mono 10
 dynamic_title = true
 filter_unmatched_urls = true
 scrollback_lines = 99999
 
 [colors]
-cursor = #aaaaaa
-background = #1A1A1A
-foreground = #babdb6
+background = #121212
+cursor = #ffa560
+foreground = #dedede
 
 
 # colors from color0 to color254 can be set
-color0 = #151515
-color1 = #ac4142
-color2 = #7e8e50
-color3 = #e5b567
-color4 = #6c99bb
-color5 = #9f4e85
-color6 = #7dd6cf
-color7 = #d0d0d0
-color8 = #505050
-color9 = #ac4142
-color10 = #7e8e50
-color11 = #e5b567
-color12 = #6c99bb
-color13 = #9f4e85
-color14 = #7dd6cf
-color15 = #f5f5f5
-colorBD = #d0d0d0
+color0 = #929292
+color1 = #e27373
+color2 = #94b979
+color3 = #ffba7b
+color4 = #97bedc
+color5 = #e1c0fa
+color6 = #00988e
+color7 = #dedede
+color8 = #bdbdbd
+color9 = #ffa1a1
+color10 = #bddeab
+color11 = #ffdca0
+color12 = #b1d8f6
+color13 = #fbdaff
+color14 = #1ab2a8
+color15 = #ffffff
+colorBD = #ffffff
 colorIT =
 colorUL =
