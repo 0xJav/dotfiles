@@ -175,18 +175,18 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 
 bar {
-    font pango:Exo2, FontAwesome5Free, FontAwesome5Brands, SymbolsNerdFont 7
+    font pango:JetBrains Mono 9
     status_command          i3blocks
     position                top
     tray_output             VGA-1
     separator_symbol        "·"
 
 colors {
-
-focused_workspace #333333 #333333 #f1f1f1
-active_workspace #333333 #333333 #f1f1f1
-inactive_workspace #222222 #222222 #787878
-urgent_workspace #ac4142 #ac4142 #ffffff
+      background #121212
+      focused_workspace #333333 #333333 #f1f1f1
+      active_workspace #333333 #333333 #f1f1f1
+      inactive_workspace #222222 #222222 #787878
+      urgent_workspace #ac4142 #ac4142 #ffffff
 
     }
 }
@@ -215,5 +215,3 @@ for_window [class="Nitrogen" instance="nitrogen"] floating enable
 for_window [class="Wicd-client.py" instance="wicd-client.py"] floating enable
 for_window [class="Viewnior" instance="viewnior"] floating enable
 for_window [class="Thunar" instance="thunar"] floating enable
-for_window [class="Termite" instance="termite"] floating enable
-
