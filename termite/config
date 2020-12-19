@@ -2,7 +2,7 @@
 scroll_on_output = false
 scroll_on_keystroke = true
 allow_bold = true
-font = JetBrains Mono 10
+font = Hack 10
 dynamic_title = true
 filter_unmatched_urls = true
 scrollback_lines = 99999
@@ -10,11 +10,11 @@ scrollback_lines = 99999
 [colors]
 background = #121212
 cursor = #ffa560
-foreground = #dedede
+foreground = #DDDDC9
 
 
 # colors from color0 to color254 can be set
-color0 = #29292
+color0 = #121212
 color1 = #e27373
 color2 = #94b979
 color3 = #ffba7b
