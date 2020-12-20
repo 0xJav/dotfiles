@@ -8,13 +8,13 @@ filter_unmatched_urls = true
 scrollback_lines = 99999
 
 [colors]
-background = #121212
+background = #151515
 cursor = #ffa560
 foreground = #DDDDC9
 
 
 # colors from color0 to color254 can be set
-color0 = #121212
+color0 = #151515
 color1 = #e27373
 color2 = #94b979
 color3 = #ffba7b
