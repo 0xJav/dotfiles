@@ -8,7 +8,7 @@ call plug#begin()
 Plug 'othree/html5.vim'
 Plug 'ervandew/supertab'
 Plug 'jiangmiao/auto-pairs'
-Plug 'ap/vim-css-color'
+Plug 'lilydjwg/colorizer'
 Plug 'nanotech/jellybeans.vim'
 call plug#end()
 
