@@ -215,3 +215,4 @@ for_window [class="Nitrogen" instance="nitrogen"] floating enable
 for_window [class="Wicd-client.py" instance="wicd-client.py"] floating enable
 for_window [class="Viewnior" instance="viewnior"] floating enable
 for_window [class="Thunar" instance="thunar"] floating enable
+for_window [class="Sxiv" instance="sxiv"] floating enable
