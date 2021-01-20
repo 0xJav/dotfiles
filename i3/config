@@ -38,7 +38,7 @@ bindsym Print exec flameshot gui
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec termite
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -193,14 +193,14 @@ colors {
 
 # i3 gaps config
 
-    for_window [class="^.*"] border pixel 2 2 
+    for_window [class="^.*"] border pixel 2
 
     gaps inner 9
 
     gaps outer 2
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #212121 #285577 #ffffff #212121   #212121
+client.focused          #333333 #285577 #ffffff #333333   #333333
 client.focused_inactive #212121 #5f676a #ffffff #212121   #212121
 client.unfocused        #212121 #222222 #888888 #212121   #212121
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
