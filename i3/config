@@ -177,7 +177,7 @@ bindsym $mod+r mode "resize"
 bar {
     font pango:JetBrains Mono 9
     status_command          i3blocks
-    position                top
+    position                bottom
     tray_output             VGA-1
     separator_symbol        "·"
 
@@ -195,7 +195,7 @@ colors {
 
     for_window [class="^.*"] border pixel 2
 
-    gaps inner 9
+    gaps inner 7
 
     gaps outer 2
 
