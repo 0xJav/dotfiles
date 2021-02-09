@@ -1,20 +1,13 @@
-"
-"  ╝╔═║║ ║  config file
-"  ║╔═║║ ║  by jav
-" ═╝╝ ╝ ╝ 
-"
-
 call plug#begin()
-Plug 'othree/html5.vim'
+Plug 'sheerun/vim-polyglot'
 Plug 'ervandew/supertab'
 Plug 'jiangmiao/auto-pairs'
 Plug 'lilydjwg/colorizer'
-Plug 'nanotech/jellybeans.vim'
 call plug#end()
 
 set number
 set expandtab
-colorscheme jellybeans 
+set background=dark
 set tabstop=2 shiftwidth=2
 set encoding=utf-8
 set showcmd
@@ -26,4 +19,9 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-set termguicolors
+set relativenumber
+
+let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum""
+
+hi Normal guibg=NONE ctermbg=NONE
