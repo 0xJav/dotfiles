@@ -25,5 +25,6 @@ interval=1
 color=#7e8e50
 
 [datetime]
-label= 
-interval=5
+interval=1
+color=#7cafc2
+
