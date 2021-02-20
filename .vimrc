@@ -3,11 +3,13 @@ Plug 'sheerun/vim-polyglot'
 Plug 'ervandew/supertab'
 Plug 'jiangmiao/auto-pairs'
 Plug 'lilydjwg/colorizer'
+Plug 'jdkanani/material-theme'
 call plug#end()
 
 set number
 set expandtab
 set background=dark
+colorscheme material-theme
 set tabstop=2 shiftwidth=2
 set encoding=utf-8
 set showcmd
