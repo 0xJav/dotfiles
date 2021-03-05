@@ -111,7 +111,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Menlo 
+    family: Menlo
 
     # The `style` can be specified to pick a specific face.
     #style: Regular
@@ -339,7 +339,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-#background_opacity: 1.0
+background_opacity: 1.0
 
 #selection:
   # This string contains all characters that are used as separators for
@@ -810,37 +810,32 @@ colors:
 
   # Print all received window events.
   #print_events: false
- 
-# Colors (Base16 Default Dark)
+# Colors (Hybrid)
 colors:
-  # Default colors
-  primary:
-    background: '#121212'
-    foreground: '#d8d8d8'
-
-  # Colors the cursor will use if `custom_cursor_colors` is true
-  cursor:
-    text: '#d8d8d8'
-    cursor: '#d8d8d8'
-
-  # Normal colors
-  normal:
-    black:   '#121212'
-    red:     '#ab4642'
-    green:   '#a1b56c'
-    yellow:  '#f7ca88'
-    blue:    '#7cafc2'
-    magenta: '#ba8baf'
-    cyan:    '#86c1b9'
-    white:   '#d8d8d8'
-
-  # Bright colors
   bright:
-    black:   '#585858'
-    red:     '#ab4642'
-    green:   '#a1b56c'
-    yellow:  '#f7ca88'
-    blue:    '#7cafc2'
-    magenta: '#ba8baf'
-    cyan:    '#86c1b9'
-    white:   '#f8f8f8'
+    black: '#1d1f22'
+    blue: '#4b6b88'
+    cyan: '#4d7b74'
+    green: '#798431'
+    magenta: '#6e5079'
+    red: '#8d2e32'
+    white: '#5a626a'
+    yellow: '#e58a50'
+  cursor:
+    cursor: '#b7bcba'
+    text: '#1e1f22'
+  normal:
+    black: '#2a2e33'
+    blue: '#6e90b0'
+    cyan: '#7fbfb4'
+    green: '#b3bf5a'
+    magenta: '#a17eac'
+    red: '#b84d51'
+    white: '#b5b9b6'
+    yellow: '#e4b55e'
+  primary:
+    background: '#161719'
+    foreground: '#b7bcba'
+  selection:
+    background: '#1e1f22'
+    text: '#b7bcba'
