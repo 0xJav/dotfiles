@@ -6,8 +6,10 @@
 # this file and re-run i3-config-wizard(1).
 
 exec picom --config ~/.config/picom.conf &
-exec compton
+exec compton --config ~/.config/compton.conf &
 exec nitrogen --restore
+exec vmware-user
+exec fixresolution
 
 # exec sh /home/$USER/.config/polybar/launch.sh
 # i3 config file (v4)
@@ -175,17 +177,17 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 
 bar {
-    font pango:JetBrains Mono 9
+    font pango:Menlo 9
     status_command          i3blocks
     position                bottom
     tray_output             VGA-1
-    separator_symbol        "·"
+    separator_symbol        " "
 
 colors {
-      background #121212
+      background #161719
       focused_workspace #333333 #333333 #f1f1f1
-      active_workspace #333333 #333333 #f1f1f1
-      inactive_workspace #222222 #222222 #787878
+      active_workspace #888888 #888888  #888888
+      inactive_workspace #212121 #212121 #888888
       urgent_workspace #ac4142 #ac4142 #ffffff
 
     }
@@ -193,9 +195,10 @@ colors {
 
 # i3 gaps config
 
-    for_window [class="^.*"] border pixel 2
+    for_window [class="^.*"] border pixel 0
 
-    gaps inner 7
+    smart_borders on
+    gaps inner 9
 
     gaps outer 2
 
