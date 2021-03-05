@@ -176,10 +176,10 @@ font:
 #draw_bold_text_with_bright_colors: false
 
 # Colors (Tomorrow Night)
-colors:
+#colors:
   # Default colors
-  primary:
-    background: '#121212'
+  #primary:
+  #  background: '#121212'
   #  foreground: '#c5c8c6'
 
     # Bright and dim foreground colors
@@ -339,7 +339,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 1.0
+#background_opacity: 1.0
 
 #selection:
   # This string contains all characters that are used as separators for
@@ -812,20 +812,8 @@ background_opacity: 1.0
   #print_events: false
 # Colors (Hybrid)
 colors:
-  bright:
-    black: '#1d1f22'
-    blue: '#4b6b88'
-    cyan: '#4d7b74'
-    green: '#798431'
-    magenta: '#6e5079'
-    red: '#8d2e32'
-    white: '#5a626a'
-    yellow: '#e58a50'
-  cursor:
-    cursor: '#b7bcba'
-    text: '#1e1f22'
   normal:
-    black: '#2a2e33'
+    black: '#161719'
     blue: '#6e90b0'
     cyan: '#7fbfb4'
     green: '#b3bf5a'
@@ -833,6 +821,18 @@ colors:
     red: '#b84d51'
     white: '#b5b9b6'
     yellow: '#e4b55e'
+  bright:
+    black: '#1d1f22'
+    blue: '#4b6b88'
+    cyan: '#4d7b74'
+    green: '#798431'
+    magenta: '#6e5079'
+    red: '#8d2e32'
+    white: '#b7bcba'
+    yellow: '#e58a50'
+  cursor:
+    cursor: '#b7bcba'
+    text: '#1e1f22'
   primary:
     background: '#161719'
     foreground: '#b7bcba'
