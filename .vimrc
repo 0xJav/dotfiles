@@ -8,6 +8,8 @@ call plug#end()
 
 set number
 set expandtab
+set background=dark
+colorscheme hybrid
 set tabstop=2 shiftwidth=2
 set encoding=utf-8
 set showcmd
@@ -18,5 +20,8 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
+syntax on
 
-hi Normal guibg=NONE ctermbg=NONE
+set t_md=
+hi Normal guibg=NONE ctermbg=NONE 
+hi Visual ctermbg=darkgrey gui=none
