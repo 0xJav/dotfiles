@@ -17,15 +17,14 @@ set scrolloff=8
 filetype plugin indent on
 
 call plug#begin()
+Plug 'sheerun/vim-polyglot'
 Plug 'ervandew/supertab'
 Plug 'jiangmiao/auto-pairs'
 Plug 'lilydjwg/colorizer'
 Plug 'w0ng/vim-hybrid'
-Plug 'scrooloose/syntastic'
 call plug#end()
 
-colorscheme hybrid
 set background=dark
-set t_md=
+colorscheme hybrid
 syntax on
 hi Normal guibg=NONE ctermbg=NONE 
