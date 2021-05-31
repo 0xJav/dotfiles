@@ -10,7 +10,6 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-set cursorline
 set noerrorbells
 set nobackup
 set scrolloff=8
@@ -21,10 +20,10 @@ Plug 'sheerun/vim-polyglot'
 Plug 'ervandew/supertab'
 Plug 'jiangmiao/auto-pairs'
 Plug 'lilydjwg/colorizer'
-Plug 'w0ng/vim-hybrid'
+Plug 'huyvohcmc/atlas.vim'
 call plug#end()
 
-set background=dark
-colorscheme hybrid
+set cursorline
+colorscheme atlas
 syntax on
-hi Normal guibg=NONE ctermbg=NONE 
+"hi Normal guibg=NONE ctermbg=NONE 

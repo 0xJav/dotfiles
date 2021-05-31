@@ -2,19 +2,33 @@ command=~/.local/src/blocks/$BLOCK_NAME
 markup=none
 
 
+
+[uname]
+command=uname -nr
+interval=1
+color=#a9a9a9
+
+[ethname]
+command=ip -o -4 route show to default | awk '{print $5}'
+interval=1
+color=#5a5a5a
+
+[iface]
+command= ~/.local/src/blocks/iface/iface
+interval=1
+color=#a9a9a9
+
 [date_part_1]
 interval=1
 command=date +%a
 color=#5a5a5a
 separator_block_width=9
-align=center
 
 [date_part_21]
 interval=1
 command=date +%d
 color=#A9A9A9
 separator_block_width=9
-align=center
 
 [date_part_3]
 interval=1
@@ -29,20 +43,4 @@ command=date +%H:%M
 color=#A9A9A9
 separator_block_width=9
 align=left
-min_width=350
-
-[uname]
-command=uname -nr
-interval=1
-color=#a9a9a9
-
-[ethname]
-command=ip -o -4 route show to default | awk '{print $5}'
-interval=1
-color=#5a5a5a
-separator_block_width=9
-
-[iface]
-command= ~/.local/src/i3blocks-contrib/iface/iface
-interval=1
-color=#a9a9a9
+min_width=50
