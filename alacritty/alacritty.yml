@@ -810,32 +810,3 @@ cursor:
 
   # Print all received window events.
   #print_events: false
-# Colors (Hybrid)
-colors:
-  normal:
-    black: '#161719'
-    blue: '#6e90b0'
-    cyan: '#7fbfb4'
-    green: '#b3bf5a'
-    magenta: '#a17eac'
-    red: '#b84d51'
-    white: '#b5b9b6'
-    yellow: '#e4b55e'
-  bright:
-    black: '#161719'
-    blue: '#6e90b0'
-    cyan: '#7fbfb4'
-    green: '#b3bf5a'
-    magenta: '#a17eac'
-    red: '#b84d51'
-    white: '#b5b9b6'
-    yellow: '#e4b55e'
-  cursor:
-    cursor: '#9a9a9a'
-    text: '#1e1f22'
-  primary:
-    background: '#161719'
-    foreground: '#b7bcba'
-  selection:
-    background: '#1e1f22'
-    text: '#b7bcba'
