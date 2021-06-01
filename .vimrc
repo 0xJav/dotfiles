@@ -20,10 +20,8 @@ Plug 'sheerun/vim-polyglot'
 Plug 'ervandew/supertab'
 Plug 'jiangmiao/auto-pairs'
 Plug 'lilydjwg/colorizer'
-Plug 'huyvohcmc/atlas.vim'
 call plug#end()
 
-set cursorline
-colorscheme atlas
+colorscheme peachpuff
 syntax on
 "hi Normal guibg=NONE ctermbg=NONE 
