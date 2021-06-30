@@ -9,6 +9,8 @@ exec compton --config ~/.config/compton.conf &
 exec vmware-user
 exec vmware-user-suid-wrapper
 exec nitrogen --restore
+exec flameshot &
+exec dunst &
 
 # exec sh /home/$USER/.config/polybar/launch.sh
 # i3 config file (v4)
@@ -185,17 +187,17 @@ bar {
     separator_symbol        " "
 
 colors {
-      background #212121
-      focused_workspace #333333 #333333 #f1f1f1
+      background #1e1f21
+      focused_workspace #232c31 #232c31 #f1f1f1
       active_workspace #888888 #888888  #888888
-      inactive_workspace #212121 #212121 #888888
+      inactive_workspace #15171c #15171c #888888
       urgent_workspace #ac4142 #ac4142 #ffffff
     }
 }
 
 # i3 gaps config
 
-    for_window [class="^.*"] border pixel 0
+    for_window [class="^.*"] border pixel 2
 
 
     gaps inner 2
@@ -203,11 +205,11 @@ colors {
     gaps outer 2
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #212121 #285577 #ffffff #161719   #161719
-client.focused_inactive #212121 #5f676a #ffffff #161719   #161719
-client.unfocused        #212121 #222222 #888888 #161719   #161719
-client.urgent           #2f343a #900000 #ffffff #900000   #900000
-client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+client.focused          #232c31 #285577 #ffffff #232c31   #232c31
+client.focused_inactive #5f676a #5f676a #ffffff #232c31   #232c31
+client.unfocused        #5f676a #222222 #888888 #232c31   #232c31
+client.urgent           #5f676a #900000 #ffffff #900000   #900000
+client.placeholder      #5f676a #0c0c0c #ffffff #000000   #0c0c0c
 
 client.background       #ffffff
 
