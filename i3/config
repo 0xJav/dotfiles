@@ -183,7 +183,6 @@ bar {
     font pango:JetBrains Mono 10
     status_command          i3blocks
     position                bottom
-    tray_output             VGA-1
     separator_symbol        " "
 
 colors {
