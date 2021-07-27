@@ -53,7 +53,7 @@ bindsym $mod+d exec dmenu_run -nb "#1d1f21" -sb "#161719" -fn "Menlo-10" -sf "#6
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
-bindsym $mod+w exec firefox
+bindsym $mod+w exec chromium
 
 # change focus
 bindsym $mod+j focus left
@@ -184,12 +184,13 @@ bar {
     status_command          i3blocks
     position                bottom
     separator_symbol        " "
+    tray_output             none
 
 colors {
-      background #1e1f21
-      focused_workspace #232c31 #232c31 #f1f1f1
+      background #1d1f21
+      focused_workspace #26292C #26292C #f1f1f1
       active_workspace #888888 #888888  #888888
-      inactive_workspace #15171c #15171c #888888
+      inactive_workspace #1d1f21 #1d1f21 #888888
       urgent_workspace #ac4142 #ac4142 #ffffff
     }
 }
@@ -198,15 +199,14 @@ colors {
 
     for_window [class="^.*"] border pixel 2
 
-
     gaps inner 2
 
     gaps outer 2
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #232c31 #285577 #ffffff #232c31   #232c31
-client.focused_inactive #5f676a #5f676a #ffffff #232c31   #232c31
-client.unfocused        #5f676a #222222 #888888 #232c31   #232c31
+client.focused          #26292c #285577 #ffffff #26292c   #26292c
+client.focused_inactive #5f676a #5f676a #ffffff #26292c   #26292c
+client.unfocused        #5f676a #222222 #888888 #26292c   #26292c
 client.urgent           #5f676a #900000 #ffffff #900000   #900000
 client.placeholder      #5f676a #0c0c0c #ffffff #000000   #0c0c0c
 
