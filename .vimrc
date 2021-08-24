@@ -13,7 +13,10 @@ set smartcase
 set noerrorbells
 set nobackup
 set scrolloff=8
-filetype plugin indent on
+" File Fuzzing
+set path+=**
+set wildmenu
+filetype plugin on
 
 call plug#begin()
 Plug 'sheerun/vim-polyglot'
