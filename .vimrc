@@ -22,16 +22,17 @@ call plug#begin()
 Plug 'sheerun/vim-polyglot'
 Plug 'ervandew/supertab'
 Plug 'jiangmiao/auto-pairs'
-Plug 'lilydjwg/colorizer'
 Plug 'mattn/emmet-vim'
 Plug 'alvan/vim-closetag'
+Plug 'AlessandroYorba/Alduin'
 call plug#end()
 
-colorscheme peachpuff
+set termguicolors
+colorscheme alduin
 syntax on
-hi Normal guibg=NONE ctermbg=NONE 
-hi clear LineNr
-hi LineNr ctermfg=darkgrey
+"hi Normal guibg=NONE ctermbg=NONE 
+"hi clear LineNr
+"hi LineNr ctermfg=darkgrey
 set cursorline
-hi CursorLine cterm=NONE ctermbg=236
-hi CursorLineNr cterm=NONE ctermbg=NONE ctermfg=yellow
+"hi CursorLine cterm=NONE ctermbg=236
+"hi CursorLineNr cterm=NONE ctermbg=NONE ctermfg=yellow
