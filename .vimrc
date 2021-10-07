@@ -27,12 +27,11 @@ Plug 'alvan/vim-closetag'
 Plug 'AlessandroYorba/Alduin'
 call plug#end()
 
-set termguicolors
-colorscheme alduin
+colorscheme peachpuff
 syntax on
 "hi Normal guibg=NONE ctermbg=NONE 
 "hi clear LineNr
 "hi LineNr ctermfg=darkgrey
-set cursorline
+"set cursorline
 "hi CursorLine cterm=NONE ctermbg=236
 "hi CursorLineNr cterm=NONE ctermbg=NONE ctermfg=yellow

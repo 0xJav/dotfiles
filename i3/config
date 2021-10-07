@@ -180,17 +180,17 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 
 bar {
-    font pango:JetBrains Mono 10
+    font pango: Hack 9
     status_command          i3blocks
     position                bottom
     separator_symbol        " "
     tray_output             none
 
 colors {
-      background #1d1f21
+      background #121212
       focused_workspace #26292C #26292C #f1f1f1
       active_workspace #888888 #888888  #888888
-      inactive_workspace #1d1f21 #1d1f21 #888888
+      inactive_workspace #121212 #121212 #888888
       urgent_workspace #ac4142 #ac4142 #ffffff
     }
 }
@@ -204,9 +204,9 @@ colors {
     gaps outer 2
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #26292c #285577 #ffffff #26292c   #26292c
-client.focused_inactive #5f676a #5f676a #ffffff #26292c   #26292c
-client.unfocused        #5f676a #222222 #888888 #26292c   #26292c
+client.focused          #1d1f21 #285577 #ffffff #202020 #202020
+client.focused_inactive #5f676a #5f676a #ffffff #202020 #202020
+client.unfocused        #5f676a #222222 #888888 #202020 #202020
 client.urgent           #5f676a #900000 #ffffff #900000   #900000
 client.placeholder      #5f676a #0c0c0c #ffffff #000000   #0c0c0c
 
