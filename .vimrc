@@ -3,6 +3,12 @@ set expandtab
 set tabstop=2 shiftwidth=2
 set softtabstop=2
 set encoding=utf-8
+
+set ffs=unix
+set fileencoding=utf-8
+set listchars=tab:>>,trail:$,eol:↩,
+set list
+
 set showcmd
 set backspace=indent,eol,start
 set hidden
@@ -24,11 +30,12 @@ Plug 'ervandew/supertab'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
 Plug 'alvan/vim-closetag'
-Plug 'AlessandroYorba/Alduin'
 call plug#end()
 
 colorscheme peachpuff
+set fileformats=unix
 syntax on
+hi NonText ctermfg=7 guifg=lightgray
 "hi Normal guibg=NONE ctermbg=NONE 
 "hi clear LineNr
 "hi LineNr ctermfg=darkgrey
