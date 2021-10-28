@@ -6,7 +6,7 @@ set encoding=utf-8
 
 set ffs=unix
 set fileencoding=utf-8
-set listchars=tab:>>,trail:$,eol:↩,
+set listchars=trail:·,eol:§,
 set list
 
 set showcmd
@@ -30,15 +30,17 @@ Plug 'ervandew/supertab'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
 Plug 'alvan/vim-closetag'
+Plug 'AndrewRadev/tagalong.vim'
 call plug#end()
 
 colorscheme peachpuff
 set fileformats=unix
 syntax on
-hi NonText ctermfg=7 guifg=lightgray
+hi NonText ctermfg=8 guifg=lightgray
 "hi Normal guibg=NONE ctermbg=NONE 
 "hi clear LineNr
 "hi LineNr ctermfg=darkgrey
 "set cursorline
 "hi CursorLine cterm=NONE ctermbg=236
 "hi CursorLineNr cterm=NONE ctermbg=NONE ctermfg=yellow
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.js,*.php'
