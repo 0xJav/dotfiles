@@ -4,8 +4,6 @@
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
 
-exec picom --config ~/.config/picom.conf &
-exec compton --config ~/.config/compton.conf &
 exec vmware-user
 exec vmware-user-suid-wrapper
 exec nitrogen --restore
@@ -182,15 +180,15 @@ bindsym $mod+r mode "resize"
 bar {
     font pango: Hack 9
     status_command          i3blocks
-    position                bottom
+    position                top
     separator_symbol        " "
     tray_output             none
 
 colors {
-      background #121212
-      focused_workspace #26292C #26292C #f1f1f1
-      active_workspace #888888 #888888  #888888
-      inactive_workspace #121212 #121212 #888888
+      background #002b36
+      focused_workspace #043F4F #043F4F #fff
+      active_workspace  #657b83 #657b83 #657b83
+      inactive_workspace  #002b36 #002b36 #888888
       urgent_workspace #ac4142 #ac4142 #ffffff
     }
 }
@@ -204,9 +202,9 @@ colors {
     gaps outer 2
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #1d1f21 #285577 #ffffff #202020 #202020
-client.focused_inactive #5f676a #5f676a #ffffff #202020 #202020
-client.unfocused        #5f676a #222222 #888888 #202020 #202020
+client.focused          #1d1f21 #285577 #ffffff #043F4F #043F4F
+client.focused_inactive #5f676a #5f676a #ffffff #043F4F #043F4F
+client.unfocused        #5f676a #222222 #888888 #043F4F #043F4F
 client.urgent           #5f676a #900000 #ffffff #900000   #900000
 client.placeholder      #5f676a #0c0c0c #ffffff #000000   #0c0c0c
 

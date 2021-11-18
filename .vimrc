@@ -6,7 +6,7 @@ set encoding=utf-8
 
 set ffs=unix
 set fileencoding=utf-8
-set listchars=trail:·,eol:§,
+set listchars=trail:·,
 set list
 
 set showcmd
@@ -31,12 +31,16 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
 Plug 'alvan/vim-closetag'
 Plug 'AndrewRadev/tagalong.vim'
+Plug 'mattn/emmet-vim'
+Plug 'lilydjwg/colorizer'
+Plug 'altercation/vim-colors-solarized'
 call plug#end()
 
-colorscheme peachpuff
+set background=dark
+colorscheme solarized
 set fileformats=unix
 syntax on
-hi NonText ctermfg=8 guifg=lightgray
+hi NonText ctermfg=gray guifg=lightgray
 "hi Normal guibg=NONE ctermbg=NONE 
 "hi clear LineNr
 "hi LineNr ctermfg=darkgrey
@@ -44,3 +48,4 @@ hi NonText ctermfg=8 guifg=lightgray
 "hi CursorLine cterm=NONE ctermbg=236
 "hi CursorLineNr cterm=NONE ctermbg=NONE ctermfg=yellow
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.js,*.php'
+let g:user_emmet_leader_key=','
