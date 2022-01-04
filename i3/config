@@ -32,6 +32,9 @@ font pango: Hack 9
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
 
+# nitrogen restore
+bindsym $mod+Shift+w exec nitrogen --restore
+
 # Print
 bindsym Print exec flameshot gui 
 
@@ -185,10 +188,10 @@ bar {
     tray_output             none
 
 colors {
-      background #002b36
-      focused_workspace #043F4F #043F4F #fff
-      active_workspace  #657b83 #657b83 #657b83
-      inactive_workspace  #002b36 #002b36 #888888
+      background #151515
+      focused_workspace #1c1c1c #1c1c1c #fff
+      active_workspace   #373b41 #373b41 #373b41
+      inactive_workspace  #151515 #151515  #373b41
       urgent_workspace #ac4142 #ac4142 #ffffff
     }
 }
@@ -202,9 +205,9 @@ colors {
     gaps outer 2
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #1d1f21 #285577 #ffffff #043F4F #043F4F
-client.focused_inactive #5f676a #5f676a #ffffff #043F4F #043F4F
-client.unfocused        #5f676a #222222 #888888 #043F4F #043F4F
+client.focused          #1d1f21 #285577 #ffffff #151515 #151515
+client.focused_inactive #5f676a #5f676a #ffffff #151515 #151515
+client.unfocused        #5f676a #222222 #888888 #151515 #151515
 client.urgent           #5f676a #900000 #ffffff #900000   #900000
 client.placeholder      #5f676a #0c0c0c #ffffff #000000   #0c0c0c
 

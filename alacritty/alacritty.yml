@@ -1059,7 +1059,7 @@ schemes:
       cursor: '#c5c8c6'
       text: '#1d1f21'
     normal:
-      black: '#000000'
+      black: '#1d1f21'
       blue: '#81a2be'
       cyan: '#8abeb7'
       green: '#b5bd68'
@@ -1074,4 +1074,33 @@ schemes:
       background: '#373b41'
       text: '#c5c8c6'
 #######################################################
-colors: *tomorrow-night
+  substrata: &substrata
+    bright:
+      black: '#5b5f71'
+      blue: '#a0b9d8'
+      cyan: '#7dc2c7'
+      green: '#92c47e'
+      magenta: '#c6aed7'
+      red: '#fe9f7c'
+      white: '#f0ecfe'
+      yellow: '#d2b45f'
+    cursor:
+      cursor: '#c5c8c6'
+      text: '#1d1f21'
+    normal:
+      black: '#2e313d'
+      blue: '#8296b0'
+      cyan: '#659ea2'
+      green: '#76a065'
+      magenta: '#a18daf'
+      red: '#cf8164'
+      white: '#b5b4c9'
+      yellow: '#ab924c'
+    primary:
+      background: '#1c1c1c'
+      foreground: '#b5b4c9'
+    selection:
+      background: '#212121'
+      text: '#c5c8c6'
+#######################################################
+colors: *substrata
