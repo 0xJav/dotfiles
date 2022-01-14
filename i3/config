@@ -188,10 +188,10 @@ bar {
     tray_output             none
 
 colors {
-      background #151515
-      focused_workspace #1c1c1c #1c1c1c #fff
+      background #1c1c1c
+      focused_workspace #212121 #212121 #fff
       active_workspace   #373b41 #373b41 #373b41
-      inactive_workspace  #151515 #151515  #373b41
+      inactive_workspace  #1c1c1c #1c1c1c  #fff
       urgent_workspace #ac4142 #ac4142 #ffffff
     }
 }
@@ -205,9 +205,9 @@ colors {
     gaps outer 2
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #1d1f21 #285577 #ffffff #151515 #151515
-client.focused_inactive #5f676a #5f676a #ffffff #151515 #151515
-client.unfocused        #5f676a #222222 #888888 #151515 #151515
+client.focused          #1d1f21 #285577 #ffffff #212121 #212121
+client.focused_inactive #5f676a #5f676a #ffffff #212121 #212121
+client.unfocused        #5f676a #222222 #888888 #212121 #212121
 client.urgent           #5f676a #900000 #ffffff #900000   #900000
 client.placeholder      #5f676a #0c0c0c #ffffff #000000   #0c0c0c
 
