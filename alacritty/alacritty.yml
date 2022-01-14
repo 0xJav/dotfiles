@@ -114,7 +114,7 @@ font:
     family: JetBrains Mono
 
     # The `style` can be specified to pick a specific face.
-    #style: Regular
+    style: Bold
 
   # Bold font face
   #bold:
@@ -1088,7 +1088,7 @@ schemes:
       cursor: '#c5c8c6'
       text: '#1d1f21'
     normal:
-      black: '#2e313d'
+      black: '#1c1c1c'
       blue: '#8296b0'
       cyan: '#659ea2'
       green: '#76a065'
@@ -1103,4 +1103,33 @@ schemes:
       background: '#212121'
       text: '#c5c8c6'
 #######################################################
-colors: *substrata
+  alduin: &alduin
+    bright:
+      black: '#303030'
+      blue: '#a0b9d8'
+      cyan: '#87AFAF'
+      green: '#5F875F'
+      magenta: '#c6aed7'
+      red: '#AF5F5F'
+      white: '#f0ecfe'
+      yellow: '#d2b45f'
+    cursor:
+      cursor: '#dfdfaf'
+      text: '#1d1f21'
+    normal:
+      black: '#1c1c1c'
+      blue: '#8296b0'
+      cyan: '#87AFAF'
+      green: '#87875F'
+      magenta: '#a18daf'
+      red: '#875F5F'
+      white: '#b5b4c9'
+      yellow: '#DFAF87'
+    primary:
+      background: '#1c1c1c'
+      foreground: '#dfdfaf'
+    selection:
+      background: '#212121'
+      text: '#dfdfaf'
+#######################################################
+colors: *alduin
