@@ -6,7 +6,7 @@ set encoding=utf-8
 
 set ffs=unix
 set fileencoding=utf-8
-set listchars=trail:·,
+set listchars=trail:·,eol:$,space:·
 set list
 
 set showcmd
@@ -32,16 +32,16 @@ Plug 'mattn/emmet-vim'
 Plug 'alvan/vim-closetag'
 Plug 'AndrewRadev/tagalong.vim'
 Plug 'mattn/emmet-vim'
-Plug 'lilydjwg/colorizer'
 Plug 'altercation/vim-colors-solarized'
+Plug 'lilydjwg/colorizer'
+Plug 'AlessandroYorba/Alduin'
 call plug#end()
 
-set background=dark
-colorscheme solarized
+colorscheme alduin
 set fileformats=unix
 syntax on
-hi NonText ctermfg=gray guifg=lightgray
-"hi Normal guibg=NONE ctermbg=NONE 
+hi NonText ctermfg=8 guifg=black
+"hi Normal guibg=NONE ctermbg=NONE
 "hi clear LineNr
 "hi LineNr ctermfg=darkgrey
 "set cursorline
