@@ -6,7 +6,6 @@ set encoding=utf-8
 
 set ffs=unix
 set fileencoding=utf-8
-set listchars=trail:·,eol:$,space:·
 set list
 
 set showcmd
@@ -34,18 +33,18 @@ Plug 'AndrewRadev/tagalong.vim'
 Plug 'mattn/emmet-vim'
 Plug 'altercation/vim-colors-solarized'
 Plug 'lilydjwg/colorizer'
-Plug 'AlessandroYorba/Alduin'
 call plug#end()
 
-colorscheme alduin
+set background=dark
+colorscheme solarized
 set fileformats=unix
 syntax on
-hi NonText ctermfg=8 guifg=black
-"hi Normal guibg=NONE ctermbg=NONE
+"hi NonText ctermfg=8 guifg=black
+hi Normal guibg=NONE ctermbg=NONE
 "hi clear LineNr
-"hi LineNr ctermfg=darkgrey
-"set cursorline
+"hi LineNr ctermbg=NONE
+set cursorline
 "hi CursorLine cterm=NONE ctermbg=236
-"hi CursorLineNr cterm=NONE ctermbg=NONE ctermfg=yellow
+hi CursorLineNr cterm=NONE ctermbg=NONE ctermfg=green
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.js,*.php'
 let g:user_emmet_leader_key=','
