@@ -111,7 +111,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Hack
+    family: Menlo
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -964,7 +964,7 @@ schemes:
       black: '#073642'
       blue: '#268bd2'
       cyan: '#2aa198'
-      green: '#859900'
+      green: '#859900
       magenta: '#d33682'
       red: '#dc322f'
       white: '#eee8d5'
@@ -1132,4 +1132,36 @@ schemes:
       background: '#212121'
       text: '#dfdfaf'
 #######################################################
-colors: *solarized-dark
+
+  notch: &notch
+    bright:
+      black: '#474747'
+      blue: '#98bd5e'
+      cyan: '#dcdcdc'
+      green: '#8c8c8c'
+      magenta: '#a3a3a3'
+      red: '#a97775'
+      white: '#d8c8bb'
+      yellow: '#a99175'
+    cursor:
+      cursor: '#aa9175'
+      text: '#000000'
+    normal:
+      black: '#383838'
+      blue: '#657d3e'
+      cyan: '#c9c9c9'
+      green: '#666666'
+      magenta: '#767676'
+      red: '#a95551'
+      white: '#d0b8a3'
+      yellow: '#a98051'
+    primary:
+      background: '#222222'
+      foreground: '#a0a0a0'
+    selection:
+      background: '#4d4d4d'
+      text: '#ffffff'
+
+
+#######################################################
+colors: *notch
