@@ -1,3 +1,3 @@
 <h1 align="center">dotfiles</h1>
 
-![example](https://i.imgur.com/JCkjSue.png)
+![example](https://i.imgur.com/Lm4OIKc.png)
