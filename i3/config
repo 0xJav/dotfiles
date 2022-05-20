@@ -188,10 +188,10 @@ bar {
     separator_symbol        " "
 
 colors {
-      background #1e1e1e
-      focused_workspace   #131313 #131313 #7C6F5D
-      active_workspace     #1e1e1e #1e1e1e #1e1e1e
-      inactive_workspace  #1e1e1e #1e1e1e #7C6F5D
+      background #001b26
+      focused_workspace   #002b36 #002b36 #7C6F5D
+      active_workspace    #001b26 #001b26 #001b26 
+      inactive_workspace   #001b26 #001b26 #7C6F5D
       urgent_workspace #ac4142 #ac4142 #ffffff
     }
 }
@@ -205,9 +205,9 @@ colors {
     gaps outer 2
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #1d1f21 #285577 #ffffff #7f7061 #7f7061
-client.focused_inactive #5f676a #5f676a #ffffff  #7f7061 #7f7061
-client.unfocused        #5f676a #222222 #888888   #7f7061 #7f7061
+client.focused          #1d1f21 #285577 #ffffff #002b36  #002b36 #002b36
+client.focused_inactive #5f676a #5f676a #ffffff  #002b36 #002b36 #002b36
+client.unfocused        #5f676a #222222 #888888  #002b36 #002b36 #002b36
 client.urgent           #5f676a #900000 #ffffff #900000   #900000
 client.placeholder      #5f676a #0c0c0c #ffffff #000000   #0c0c0c
 
