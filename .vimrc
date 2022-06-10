@@ -13,10 +13,14 @@ set path+=**
 set wildmenu
 filetype plugin on
 
-colorscheme peachpuff
-hi Comment ctermfg=green
+set background=dark
+colorscheme solarized 
+hi Normal guibg=NONE ctermbg=NONE
+hi LineNr guibg=NONE ctermbg=NONE
 
 " Auto-closing
 ino ' ''<left>
 ino " ""<left>
 ino ( ()<left>
+ino [ []<left>
+ino { {}<left>
