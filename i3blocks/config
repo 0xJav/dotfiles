@@ -20,12 +20,12 @@ color=#7B6E5D
 label=VPN+ 
 command=ip addr show tun0 | awk -F ': ' '{print $2}' | head -n1
 interval=1
-color=#6e6f13
+color=#268bd2
 
 [tun0iface]
 command=ip addr show tun0 | awk '{print $2}' | sed -n 3p | cut -f1 -d'/'
 interval=1
-color=#6e6f13
+color=#268bd2
 
 [ethname]
 label=IP+ 
