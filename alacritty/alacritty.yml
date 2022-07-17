@@ -1010,6 +1010,10 @@ schemes:
       background: '0x181818'
       foreground: '0xd8d8d8'
 
+    selection:
+      background: '0x272727'
+      foreground: "0xd8d8d8"
+
     # Colors the cursor will use if `custom_cursor_colors` is true
     cursor:
       text: '0x181818'
@@ -1164,4 +1168,4 @@ schemes:
 
 
 #######################################################
-colors: *solarized-dark
+colors: *base16-default
