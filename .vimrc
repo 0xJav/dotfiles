@@ -1,27 +1,17 @@
-set number
 syntax on
-set tabstop=2
-set shiftwidth=2
-set expandtab
+set number
 set ai
 set hlsearch
-set ruler
+set expandtab
+set tabstop=2
+set shiftwidth=2
 set scrolloff=8
+hi LineNr ctermfg=red ctermbg=NONE
+hi Comment ctermfg=green
 
-" File Fuzzing
-set path+=**
-set wildmenu
-filetype plugin on
-
-set background=dark
-colorscheme solarized
-hi Normal guibg=NONE ctermbg=NONE
-set cursorline
-hi CursorLineNr term=bold cterm=bold ctermfg=012 ctermbg=black gui=bold
-
-" Auto-closing
 ino ' ''<left>
 ino " ""<left>
 ino ( ()<left>
 ino [ []<left>
 ino { {}<left>
+ino < <><left>
