@@ -111,7 +111,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Menlo
+    family: JetBrains Mono
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -1168,4 +1168,32 @@ schemes:
 
 
 #######################################################
-colors: *base16-default
+  x8r9: &x8r9
+    bright:
+      black: '#8E8C84'
+      blue: '#516C70'
+      cyan: '#6C7471'
+      green: '#9F765A'
+      magenta: '#79827D'
+      red: '#79827D'
+      white: '#CCC8BD'
+      yellow: '#79827D'
+    cursor:
+      cursor: '#CCC8BD'
+      text: '#CCC8BD'
+    normal:
+      black: '#0D1010'
+      blue: '#516C70'
+      cyan: '#6C7471'
+      green: '#9F765A'
+      magenta: '#79827D'
+      red: '#79827D'
+      white: '#CCC8BD'
+      yellow: '#79827D'
+    primary:
+      background: '#0D1010'
+      foreground: '#CCC8BD'
+    selection:
+      background: '#8E8C84'
+      text: '#CCC8BD'
+colors: *x8r9
