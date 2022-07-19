@@ -1,3 +1,3 @@
-<h1 align="center">dotfiles</h1>
+<h1 align="center">my dots</h1>
 
-![example](https://i.imgur.com/lcYx23X.png)
+![example](https://i.imgur.com/fQ9Dg6C.png)
