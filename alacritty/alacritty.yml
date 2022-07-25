@@ -1170,30 +1170,30 @@ schemes:
 #######################################################
   x8r9: &x8r9
     bright:
-      black: '#8E8C84'
+      black: '#242626'
       blue: '#516C70'
       cyan: '#6C7471'
-      green: '#9F765A'
+      green: '#79827D'
       magenta: '#79827D'
-      red: '#79827D'
+      red: '#9F765A'
       white: '#CCC8BD'
-      yellow: '#79827D'
-    cursor:
-      cursor: '#CCC8BD'
-      text: '#CCC8BD'
+      yellow: '#928176'
     normal:
       black: '#0D1010'
       blue: '#516C70'
       cyan: '#6C7471'
-      green: '#9F765A'
+      red: '#9F765A'
       magenta: '#79827D'
-      red: '#79827D'
+      green: '#79827D'
       white: '#CCC8BD'
-      yellow: '#79827D'
+      yellow: '#928176'
     primary:
       background: '#0D1010'
       foreground: '#CCC8BD'
     selection:
-      background: '#8E8C84'
+      background: '#242626'
       text: '#CCC8BD'
+    cursor:
+      cursor: '#ccc8bd'
+      text: '#242626'
 colors: *x8r9
