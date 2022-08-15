@@ -1,22 +1,9 @@
-syntax on
-set number
-set ai
-set hlsearch
-set expandtab
-set tabstop=2
-set shiftwidth=2
 set scrolloff=8
-set relativenumber
-colorscheme base16-default-dark
-set cursorline
-hi LineNr ctermfg=red ctermbg=NONE
-hi CursorLine ctermbg=NONE
-hi CursorLineNr ctermfg=yellow ctermbg=NONE
-hi Comment ctermfg=green
+set tabstop=2
+syntax on
 
-ino ' ''<left>
-ino " ""<left>
-ino ( ()<left>
-ino [ []<left>
-ino { {}<left>
-ino < <><left>
+colorscheme NeoSolarized
+set cursorline
+set termguicolors
+set background=dark
+hi Normal guibg=NONE ctermfg=NONE
