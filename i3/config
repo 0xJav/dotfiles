@@ -6,7 +6,7 @@
 
 exec vmware-user
 exec vmware-user-suid-wrapper
-exec picom --experimental-backends
+exec picom 
 exec nitrogen --restore
 exec flameshot &
 exec dunst &
@@ -188,18 +188,18 @@ bar {
     separator_symbol        " "
 
 colors {
-      background #0d1010
-      focused_workspace   #272727 #272727 #ffffff
-      active_workspace    #8E8C84 #8E8C84 #f8f8f8
-      inactive_workspace  #0d1010 #0d1010 #f8f8f8
+      background #002b36
+      focused_workspace   #004354 #004354 #ffffff
+      inactive_workspace  #002b36 002b36 #f8f8f8
+      inactive_workspace  #002b36 #002b36 #f8f8f8
       urgent_workspace #ac4142 #ac4142 #ffffff
     }
 }
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #272727 #272727 #ffffff #272727 #272727
-client.focused_inactive #272727 #272727 #ffffff #272727 #272727
-client.unfocused        #272727 #272727 #888888 #272727 #272727
+client.focused          #272727 #272727 #ffffff #004354 #004354 
+client.focused_inactive #272727 #272727 #ffffff #004354 #004354
+client.unfocused        #272727 #272727 #ffffff #004354 #004354
 client.urgent           #5f676a #900000 #ffffff #900000   #900000
 client.placeholder      #5f676a #0c0c0c #ffffff #000000   #0c0c0c
 
