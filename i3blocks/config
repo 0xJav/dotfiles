@@ -3,13 +3,13 @@ markup=none
 color=#CCC8BD
 
 [memoryusage]
-label=MEM+ 
+label=MEM 
 command=free -h | awk '/Mem:/ {gsub(/i/, ""); print $3}'
 color=#CCC8BD
 interval=1
 
 [cpuusage]
-label=CPU+ 
+label=CPU 
 interval=1
 # interval=persist
 min_width="00.00%"
@@ -17,7 +17,7 @@ command=iostat -c 2>&1 | grep --line-buffered -v '^$\|^Linux' | grep --line-buff
 color=#CCC8BD
 
 [tun0name]
-label=VPN+ 
+label=VPN 
 command=ip addr show tun0 | awk -F ': ' '{print $2}' | head -n1
 interval=1
 color=#CCC8BD
@@ -25,10 +25,10 @@ color=#CCC8BD
 [tun0iface]
 command=ip addr show tun0 | awk '{print $2}' | sed -n 3p | cut -f1 -d'/'
 interval=1
-color=#CCC8BD
+color=#798362
 
 [ethname]
-label=IP+ 
+label=Ethernet 
 command=ip -o -4 route show to default | awk '{print $5}'
 interval=1
 color=#CCC8BD
@@ -36,19 +36,11 @@ color=#CCC8BD
 [iface]
 command=ip addr show ens33 | awk '{print $2}' | sed -n 4p | cut -f1 -d'/'
 interval=1
-color=#CCC8BD
-
-[date_part_2]
-label=DATE+ 
-interval=1
-command=date +%d-%m-%Y
-color=#CCC8BD
-separator_block_width=9
+color=#798362
 
 [date_part_1]
-label=TIME+ 
 interval=1
-command=date +%H:%M:%S
+command=date '+%b %d %H:%M '
 color=#CCC8BD
 separator_block_width=9
 align=left
