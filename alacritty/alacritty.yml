@@ -61,7 +61,7 @@ window:
   # Values for `decorations` (macOS only):
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background and no title bar buttons
-  #decorations: full
+  # decorations: full
 
   # Startup Mode (changes require restart)
   #
@@ -75,7 +75,7 @@ window:
   #startup_mode: Windowed
 
   # Window title
-  #title: Alacritty
+  title: Terminal
 
   # Allow terminal applications to change Alacritty's window title.
   #dynamic_title: true
@@ -93,10 +93,10 @@ window:
   # and `light`. Set this to `None` to use the default theme variant.
   #gtk_theme_variant: None
 
-#scrolling:
+scrolling:
   # Maximum number of lines in the scrollback buffer.
   # Specifying '0' will disable scrolling.
-  #history: 10000
+  history: 100000
 
   # Scrolling distance multiplier.
   #multiplier: 3
@@ -111,7 +111,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Hack
+    family: JetBrains Mono
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -952,7 +952,7 @@ schemes:
       white:   '0xfdf6e3'
 
     selection:
-      background: '#004354'
+      background: '#083642'
       text: '#ffffff'
 
     indexed_colors:
