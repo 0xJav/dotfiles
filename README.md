@@ -1,3 +1,4 @@
 <h1 align="center">my dots</h1>
 
-![example](https://cdn.discordapp.com/attachments/416305764106240021/1082013825815040041/image.png)
+![img1](https://i.imgur.com/qjcrdts.png)
+![img2](https://i.imgur.com/XxHxDa2.png)
