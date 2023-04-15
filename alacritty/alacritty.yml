@@ -838,9 +838,6 @@ schemes:
       matches:
         foreground: CellBackground
         background: '#88c0d0'
-      bar:
-        background: '#434c5e'
-        foreground: '#d8dee9'
     normal:
       black: '#3b4252'
       red: '#bf616a'
@@ -1096,60 +1093,36 @@ schemes:
       background: '#373b41'
       text: '#c5c8c6'
 #######################################################
-ayu-dark: &ayu-dark
+gruvbox-dark: &gruvbox-dark
   # Default colors
   primary:
-    background: '#0f1419'
-    foreground: '#e6e1cf'
+    # hard contrast: background = '#1d2021'
+    background: '#282828'
+    # soft contrast: background = '#32302f'
+    foreground: '#ebdbb2'
 
   # Normal colors
   normal:
-    black:   '#0f1419'
-    red:     '#f34a4a'
-    green:   '#B8CC52'
-    yellow:  '#FFB673'
-    blue:    '#36A3D9'
-    magenta: '#d4bfff'
-    cyan:    '#95E6CB'
-    white:   '#f2f2f2'
+    black:   '#282828'
+    red:     '#cc241d'
+    green:   '#98971a'
+    yellow:  '#d79921'
+    blue:    '#458588'
+    magenta: '#b16286'
+    cyan:    '#689d6a'
+    white:   '#a89984'
 
   # Bright colors
   bright:
-    black:   '#212733'
-    red:     '#ff3333'
-    green:   '#c2d94c'
-    yellow:  '#e7c547'
-    blue:    '#59c2ff'
-    magenta: '#b77ee0'
-    cyan:    '#5ccfe6'
-    white:   '#ffffff'
-  selection:
-    background: '#212733'
-    text: '#c5c8c6'
-
-gruvbox_material: &gruvbox_material
-    primary:
-      background: '0x282828'
-      foreground: '0xd4be98'
-    normal:
-      black:   '0x32302f'
-      red:     '0xea6962'
-      green:   '0xa9b665'
-      yellow:  '0xd8a657'
-      blue:    '0x7daea3'
-      magenta: '0xd3869b'
-      cyan:    '0x89b482'
-      white:   '0xd4be98'
-    bright:
-      black:   '0x32302f'
-      red:     '0xea6962'
-      green:   '0xa9b665'
-      yellow:  '0xd8a657'
-      blue:    '0x7daea3'
-      magenta: '0xd3869b'
-      cyan:    '0x89b482'
-      white:   '0xd4be98'
-
+    black:   '#928374'
+    red:     '#fb4934'
+    green:   '#b8bb26'
+    yellow:  '#fabd2f'
+    blue:    '#83a598'
+    magenta: '#d3869b'
+    cyan:    '#8ec07c'
+    white:   '#ebdbb2'
+#######################################################
 elly: &elly
   primary:
     background: "#111A1f"
@@ -1175,6 +1148,86 @@ elly: &elly
   selection:
     background: '#202A2E'
     text: '#c5c8c6'
+#######################################################
+x8r9: &x8r9
+    bright:
+      black: '#8E8C84'
+      blue: '#516C70'
+      cyan: '#6C7471'
+      green: '#9F765A'
+      magenta: '#79827D'
+      red: '#79827D'
+      white: '#CCC8BD'
+      yellow: '#79827D'
+    cursor:
+      cursor: '#CCC8BD'
+      text: '#CCC8BD'
+    normal:
+      black: '#0D1010'
+      blue: '#516C70'
+      cyan: '#6C7471'
+      green: '#9F765A'
+      magenta: '#79827D'
+      red: '#79827D'
+      white: '#CCC8BD'
+      yellow: '#79827D'
+    primary:
+      background: '#0D1010'
+      foreground: '#CCC8BD'
+    selection:
+      background: '#8E8C84'
+      text: '#CCC8BD'
+#######################################################
+village: &village
+    cursor:
+      cursor: '#CCC8BD'
+      text: '#CCC8BD'
+    normal:
+      black: '#0E100E'
+      blue: '#516C70'
+      cyan: '#6C7471'
+      green: '#9F765A'
+      magenta: '#79827D'
+      red: '#5F6259'
+      white: '#DBD8D4'
+      yellow: '#8B8779'
+    bright:
+      black: '#0E100E'
+      blue: '#516C70'
+      cyan: '#6C7471'
+      green: '#9F765A'
+      magenta: '#79827D'
+      red: '#5F6259'
+      white: '#DBD8D4'
+      yellow: '#8B8779'
+    primary:
+      background: '#0E100E'
+      foreground: '#CCC8BD'
+    selection:
+      background: '#282828'
+      text: '#CCC8BD'
+############################################################
+everforest: &everforest
+  primary:
+    background: '#272e33'
+    foreground: '#d3c6aa'
+  normal:
+    black:   '#414b50'
+    red:     '#e67e80'
+    green:   '#a7c080'
+    yellow:  '#dbbc7f'
+    blue:    '#7fbbb3'
+    magenta: '#d699b6'
+    cyan:    '#83c092'
+    white:   '#d3c6aa'
+  bright:
+    black:   '#475258'
+    red:     '#e67e80'
+    green:   '#a7c080'
+    yellow:  '#dbbc7f'
+    blue:    '#7fbbb3'
+    magenta: '#d699b6'
+    cyan:    '#83c092'
+    white:   '#d3c6aa'
 
-colors: *elly
-
+colors: *everforest
