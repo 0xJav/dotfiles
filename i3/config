@@ -6,6 +6,7 @@
 
 exec vmware-user
 exec vmware-user-suid-wrapper
+exec pulseaudio
 exec nitrogen --restore
 exec flameshot &
 exec picom
@@ -160,8 +161,7 @@ mode "resize" {
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
         bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt bindsym l resize shrink height 10 px or 10 ppt
         bindsym ccedilla resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
@@ -183,22 +183,34 @@ bindsym $mod+r mode "resize"
 
 bar {
     font pango: Hack 9
-    status_command          i3status
-    position                bottom
+    status_command          i3blocks
+    position                top
     separator_symbol        " "
+
+    colors {
+      background #282c34
+      focused_workspace   #1E222B #1E222B #ffffff
+      inactive_workspace  #282c34 #282c34 #f8f8f8
+      inactive_workspace  #282c34 #282c34 #f8f8f8
+      urgent_workspace #ac4142 #ac4142 #ffffff
+    }
 }
+
+
+set $color #43464D
+
 # class                 border  backgr. text    indicator child_border
-client.focused          #202a2e #202a2e #ffffff #202a2e #202a2e
-client.focused_inactive #202a2e #202a2e #ffffff #202a2e #202a2e
-client.unfocused        #202a2e #202a2e #ffffff #202a2e #202a2e
-client.urgent           #202a2e #202a2e  #ffffff #900000   #900000
-client.placeholder      #202a2e #202a2e #ffffff #000000   #0c0c0c
+client.focused          $color $color #ffffff $color $color
+client.focused_inactive $color $color #ffffff $color $color
+client.unfocused        $color $color #ffffff $color $color
+client.urgent           $color $color #ffffff $color $color
+client.placeholder      $color $color #ffffff $color $color
 
 client.background       #ffffff
 
-#for_window [class="^.*"] border pixel 2
-#gaps inner 5
-#gaps outer 2
+for_window [class="^.*"] border pixel 1
+gaps inner 6
+gaps outer 4
 
 # floating enable
 for_window [class="feh"] floating enable
