@@ -1,47 +1,43 @@
 command=~/.local/src/blocks/$BLOCK_NAME
 markup=none
-color=#abb2bf
+color=#1e222b
 
 [memoryusage]
-label=MEM 
+label= 
 command=free -h | awk '/Mem:/ {gsub(/i/, ""); print $3}'
 interval=1
-color=#abb2bf
+color=#ffffff
 
 [cpuusage]
-label=CPU 
+label= 
 interval=1
 # interval=persist
 min_width="00.00%"
 command=iostat -c 2>&1 | grep --line-buffered -v '^$\|^Linux' | grep --line-buffered '\.' | awk '{print 100-$6"%"}'
-color=#abb2bf
+color=#ffffff
 
 [tun0name]
-label=VPN 
+label= 
 command=ip addr show tun0 | awk -F ': ' '{print $2}' | head -n1
 interval=1
-color=#abb2bf
-
-[tun0iface]
-command=ip addr show tun0 | awk '{print $2}' | sed -n 3p | cut -f1 -d'/'
-interval=1
-color=#abb2bf
+color=#ffffff
 
 [ethname]
-label=Ethernet 
-command=ip -o -4 route show to default | awk '{print $5}'
+label= 
+command=ip -o -4 route show to default | awk '{print $5}' 
 interval=1
-color=#abb2bf
+color=#ffffff
 
 [iface]
 command=ip addr show ens33 | awk '{print $2}' | sed -n 4p | cut -f1 -d'/'
 interval=1
-color=#abb2bf
+color=#ffffff
 
 [date_part_1]
 interval=1
+label= 
 command=date '+%b %d %H:%M '
 separator_block_width=9
 align=left
 min_width=50
-color=#abb2bf
+color=#ffffff
