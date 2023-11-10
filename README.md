@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/m0cb/dotfiles/">
-        <img align="center" src="https://i.imgur.com/RfyicsQ.png" width="150"></a>
+        <img align="center" src="https://i.imgur.com/XJgLG2U.png" width="200"></a>
   <br>
   <br>
   <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=flat">
