@@ -9,4 +9,4 @@
   <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white">
 </p>
 
-![img1](https://i.imgur.com/PrUdfTT.png)
+![img1](https://i.imgur.com/fonSgda.png)
