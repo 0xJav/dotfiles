@@ -6,7 +6,7 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
-Plug 'folke/tokyonight.nvim'
+Plug 'datsfilipe/min-theme.nvim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 vim.call('plug#end')
@@ -29,10 +29,12 @@ vim.cmd([[
   set mouse=
   set termguicolors
   set cursorline
-  colorscheme tokyonight-night
+  colorscheme min-theme
+
+  let g:airline_theme='minimalist'
+  let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.tsx,*.js,*.jsx,*.md'
 ]])
 
 -- Setup language servers.
 local lspconfig = require('lspconfig')
 lspconfig.pyright.setup {}
-lspconfig.tsserver.setup {}
