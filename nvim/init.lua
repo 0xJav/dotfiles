@@ -4,8 +4,6 @@ local Plug = vim.fn['plug#']
 vim.call('plug#begin')
 Plug 'neovim/nvim-lspconfig'
 Plug 'sheerun/vim-polyglot'
-Plug 'jiangmiao/auto-pairs'
-Plug 'alvan/vim-closetag'
 Plug 'datsfilipe/min-theme.nvim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -32,7 +30,6 @@ vim.cmd([[
   colorscheme min-theme
 
   let g:airline_theme='minimalist'
-  let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.tsx,*.js,*.jsx,*.md'
 ]])
 
 -- Setup language servers.
