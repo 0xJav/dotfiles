@@ -4,9 +4,9 @@ local Plug = vim.fn['plug#']
 vim.call('plug#begin')
 Plug 'neovim/nvim-lspconfig'
 Plug 'sheerun/vim-polyglot'
-Plug 'datsfilipe/min-theme.nvim'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'datsfilipe/vesper.nvim'
+  Plug 'windwp/nvim-autopairs'
 vim.call('plug#end')
 
 vim.cmd([[
@@ -27,10 +27,25 @@ vim.cmd([[
   set mouse=
   set termguicolors
   set cursorline
-  colorscheme min-theme
-
-  let g:airline_theme='minimalist'
+  colorscheme vesper
 ]])
+
+require('vesper').setup({
+    transparent = false, -- Boolean: Sets the background to transparent
+    italics = {
+        comments = true, -- Boolean: Italicizes comments
+        keywords = true, -- Boolean: Italicizes keywords
+        functions = true, -- Boolean: Italicizes functions
+        strings = true, -- Boolean: Italicizes strings
+        variables = true, -- Boolean: Italicizes variables
+    },
+    overrides = {}, -- A dictionary of group names, can be a function returning a dictionary or a table.
+    palette_overrides = {}
+})
+
+require('lualine').setup()
+
+require("nvim-autopairs").setup {}
 
 -- Setup language servers.
 local lspconfig = require('lspconfig')
