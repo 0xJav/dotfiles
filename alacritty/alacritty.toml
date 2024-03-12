@@ -24,3 +24,31 @@ title = "Terminal"
 [window.padding]
 x = 9
 y = 10
+
+[colors.primary]
+background = "#101010"
+foreground = "#FFFFFF"
+
+[colors.cursor]
+text = "#1E1E2E"
+cursor = "#F5E0DC"
+
+[colors.normal]
+black = "#101010"
+red = "#FF8080"
+green = "#565656"
+yellow = "#FFC799"
+blue = "#94FFE4"
+magenta = "#FF8080"
+cyan = "#94FFE4"
+white = "#FFFFFF"
+
+[colors.bright]
+black = "#585858"
+red = "#FF8080"
+green = "#565656"
+yellow = "#FFC799"
+blue = "#94FFE4"
+magenta = "#FF8080"
+cyan = "#94FFE4"
+white = "#FFFFFF"
