@@ -6,7 +6,7 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'sheerun/vim-polyglot'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'datsfilipe/vesper.nvim'
-  Plug 'windwp/nvim-autopairs'
+Plug 'windwp/nvim-autopairs'
 vim.call('plug#end')
 
 vim.cmd([[
