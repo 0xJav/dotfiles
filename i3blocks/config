@@ -65,6 +65,12 @@ command=ip addr show tun0 | awk -F ': ' '{print $2}' | head -n1
 interval=1
 color=#ffffff
 
+[tun0iface]
+command=ip addr show tun0 | awk '{print $2}' | sed -n 3p | cut -f1 -d'/'
+interval=1
+color=#abb2bf
+color=#ffffff
+
 [ethname]
 label=  
 command=ip -o -4 route show to default | awk '{print $5}' 
