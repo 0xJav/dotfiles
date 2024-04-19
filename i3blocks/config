@@ -42,23 +42,6 @@ LABEL=󰋊
 #DIR=/mnt/data
 interval=30
 
-[volume-pulseaudio]
-command=$SCRIPT_DIR/volume-pulseaudio/volume-pulseaudio
-interval=1
-USE_ALSA_NAME=1
-
-[miccontrol]
-command=$SCRIPT_DIR/miccontrol/miccontrol
-label= 
-SOURCE=alsa_input.pci-0000_00_1f.3.analog-stereo
-interval=10
-signal=10
-
-[keymap]
-label=⌨ 
-command=bash -c 'xkb-switch;xkb-switch -W'
-interval=persist
-
 [tun0name]
 label= 
 command=ip addr show tun0 | awk -F ': ' '{print $2}' | head -n1
