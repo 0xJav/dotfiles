@@ -5,4 +5,4 @@
 <a href="https://www.gnu.org/software/bash/"><img src="https://img.shields.io/badge/Bash-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white"></a>
 </p>
 
-![img1](https://i.imgur.com/z4dR3YN.png)
+![img1](https://i.imgur.com/ji4acR4.png)
