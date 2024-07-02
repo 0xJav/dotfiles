@@ -24,4 +24,5 @@ packer.startup(function(use)
   }
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
+  use { "ellisonleao/gruvbox.nvim" }
 end)
