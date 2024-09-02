@@ -5,8 +5,4 @@
 <a href="https://www.gnu.org/software/bash/"><img src="https://img.shields.io/badge/Bash-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white"></a>
 </p>
 
-<<<<<<< HEAD
-![img1](https://i.imgur.com/ji4acR4.png)
-=======
-![img1](https://i.imgur.com/taR3Uu9.png)
->>>>>>> parent of 1cd85af (Update README.md)
+![img1](https://i.imgur.com/z4dR3YN.png)
